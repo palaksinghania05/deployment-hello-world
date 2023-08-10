@@ -19,7 +19,7 @@ jobs:
         python-version: 3.8  
       
     - name: Deploy to Netlify
-      uses: netlify/actions/cli@main
+      uses: netlify/actions/cli@master
       with:
         args: deploy --prod
       env:
